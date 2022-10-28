@@ -1,0 +1,259 @@
+body {
+    background:#E9E9E9;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+#header{
+  margin-top: 10px;
+  word-spacing: 20px;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  height: 40px;
+}
+
+.navigation {
+
+  color: #FFFFFF;
+  font-family: Roboto;
+
+}
+
+.footer-flex{
+
+  display: flex;
+  background-color: #000000;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+#container-footer{
+
+  margin-left: 200px;
+
+}
+
+#container{
+
+  margin-left: 400px;
+  margin-top: 17px;
+  height: 108px;
+  width: 108px;
+ 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+a:hover{
+
+  color: #FF0000;
+}
+
+.mainheading-font {
+
+
+  font-family: Roboto;
+  margin-right: auto;
+  margin-bottom: 70px;
+
+}
+
+.body-flex-container{
+
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 120px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+
+}
+
+
+.body-flex-container,img{
+  transition: 1s ease;
+  }
+  
+  .body-flex-container:hover,img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+  }
+
+
+
+
+
+
+.body-flex-container:hover{
+
+  
+  background-color: #000000;
+  color: #FFFFFF;
+  
+
+
+}
+
+
+
+
+
+.body-flex-container-index {
+  display: flex;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.button{
+  background-color: #000000;
+  border-radius: 12px;
+  height: 30px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.alignment {
+
+  margin-left: 40px;
+}
+
+
+
+
+
+.button-text{
+
+  color: #FF0000;
+  font-family: Roboto;
+
+}
+
+
+
+.button-center{
+
+margin-left: 50%;
+}
+
+#api-for-description-spider, #api-for-description-hulk, #api-for-description-xman, #api-for-description-thor, #api-for-description-abomination, #api-for-description-abomb, #api-for-description-aim, #api-for-description-daredevil, #api-for-description-baron, #api-for-description-captain,#api-for-character-spider, #api-for-character-hulk, #api-for-character-xman, #api-for-character-thor, #api-for-character-abomination, #api-for-character-abomb, #api-for-character-aim, #api-for-character-daredevil, #api-for-character-baron, #api-for-character-captain,#api-for-character-falcon, #api-for-description-falcon, #api-for-character-franklin, #api-for-description-franklin, #api-for-character-gwen, #api-for-description-gwen, #container, #api-for-character-hawkeye, #api-for-description-hawkeye, #api-for-character-hela, #api-for-description-hela, #api-for-character-iron, #api-for-description-iron, #api-for-comic-kirby, #api-for-descomic-kirby, #kirbycomic-img, #api-for-comic-spider, #api-for-descomic-spider, #spidercomic-img,#api-for-comic-fantastic, #api-for-descomic-fantastic, #fantasticcomic-img, #api-for-comic-marvel, #api-for-descomic-marvel,#marvelcomic-img,#api-for-comic-marvelvis, #api-for-descomic-marvelvis, #api-for-comic-spiderom, #api-for-descomic-spiderom ,#spideromcomic-img, #api-for-comic-fury, #api-for-descomic-fury, #furycomic-img, #api-for-comic-marveltails, #api-for-descomic-marveltails, #marveltailscomic-img, #api-for-comic-hulk, #api-for-descomic-hulk, #hulkcomic-img, #api-for-comic-drstrange, #api-for-descomic-drstrange, #drstrangecomic-img, #api-for-comic-xman, #api-for-descomic-xman, #xmancomic-img,  #marvelviscomic-img, #api-for-comic-human, #api-for-descomic-human, #humancomic-img, #api-for-comic-secret, #api-for-descomic-secret, #secretcomic-img, #api-for-comic-ant, #api-for-descomic-ant, #antcomic-img, #api-for-series-dare, #api-for-desseries-dare, #dareseries-img,#api-for-series-spider, #api-for-desseries-spider, #spiderseries-img, #api-for-series-avenger, #api-for-desseries-avenger, #avengerseries-img, #api-for-series-captain, #api-for-desseries-captain, #captainseries-img, #api-for-series-deadpool, #api-for-desseries-deadpool, #deadpool-img, #api-for-events-civil, #api-for-desevents-civil, #civilevent-img, #api-for-events-house, #api-for-desevents-house, #houseevent-img, #api-for-events-evolve, #api-for-desevents-evolve, #evolveevent-img, #api-for-isbn-kirby, #api-for-isbn-spider, #api-for-isbn-fantastic, #api-for-isbn-marvel, #api-for-isbn-marvelvis, #api-for-isbn-spiderom, #api-for-isbn-fury, #api-for-isbn-marveltails, #api-for-isbn-hulk, #api-for-isbn-drstrange, #api-for-isbn-xman, #api-for-isbn-human, #api-for-isbn-secret, #api-for-isbn-ant, #isbn{
+
+  animation-duration: 10s;
+  animation-name: fadeIn;
+}
+
+
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.life{
+  font-family: Roboto;
+}
+.lifearticle{
+  font-family: Roboto;
+}
+.work{
+  font-family: Roboto;
+}
+.workarticle{
+  font-family: Roboto;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .footer-flex {
+    display: flex;
+    background-color: #000000;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#container-footer {
+  margin-left: 10px;
+}
+
+.body-flex-container-index {
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.stanmedia, .marvelmedia{
+  height: 192px;
+}
+
+.body-flex-container {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.mainheading-font {
+  font-family: Roboto;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+#container {
+  margin-left: 10px;
+  margin-top: inherit;
+  height: 108px;
+  width: 108px;
+}
+
+.button-center {
+  margin-left: 30%;
+}
+
+
+
+}
