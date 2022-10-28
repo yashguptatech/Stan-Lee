@@ -5,4 +5,4 @@
 <p>
   Project done by
 
-Yash Gupta (Team Leader)
+Yash Gupta
